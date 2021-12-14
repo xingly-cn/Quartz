@@ -1,4 +1,4 @@
-package com.sugar.quartz.utils;
+package com.sugar.quartz.utils.job;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
