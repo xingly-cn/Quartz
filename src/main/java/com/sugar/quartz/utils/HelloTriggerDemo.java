@@ -4,12 +4,12 @@ import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
 /**
- * 功能描述: 定时器配置
+ * 功能描述: Trigger
  *
  * @author XiaoNianXin
  * @date 2021/12/13 21:08
  */
-public class HelloSchedulerDemo {
+public class HelloTriggerDemo {
     public static void main(String[] args) throws SchedulerException {
         // 1、调度器 - 从工厂获取调度实例
         Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
