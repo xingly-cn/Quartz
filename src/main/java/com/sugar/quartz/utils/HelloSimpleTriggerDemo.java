@@ -6,7 +6,7 @@ import org.quartz.impl.StdSchedulerFactory;
 import java.util.Date;
 
 /**
- * 功能描述: 定时器配置2
+ * 功能描述: SimpleTrigger
  *
  * @author XiaoNianXin
  * @date 2021/12/13 21:08
