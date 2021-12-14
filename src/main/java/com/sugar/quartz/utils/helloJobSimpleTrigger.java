@@ -15,7 +15,7 @@ import java.util.Date;
  * @date 2021/12/13 20:52
  */
 @PersistJobDataAfterExecution
-public class helloJobTrigger implements Job {
+public class helloJobSimpleTrigger implements Job {
 
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
