@@ -15,7 +15,7 @@ import java.util.Date;
  * @date 2021/12/13 20:52
  */
 @PersistJobDataAfterExecution
-public class HelloJob implements Job {
+public class HelloJobTrigger implements Job {
 
     // 实例化时自动绑定 JDM key对应的值
     private String msg;
