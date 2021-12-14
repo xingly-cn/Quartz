@@ -24,7 +24,7 @@ public class HelloSimpleTriggerDemo {
         Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
 
         // 2、任务实例 - 执行的任务对象
-        JobDetail job = JobBuilder.newJob(helloJobTrigger.class)
+        JobDetail job = JobBuilder.newJob(helloJobSimpleTrigger.class)
                 .withIdentity("job1", "group1") // 任务名称,组名称
                 .usingJobData("msg","JDM使用 - Detail")    // JDM 传递参数
                 .build();
