@@ -11,7 +11,7 @@ import java.util.Date;
  * @author XiaoNianXin
  * @date 2021/12/13 21:08
  */
-public class HelloSchedulerTriggerDemo {
+public class HelloSimpleTriggerDemo {
     public static void main(String[] args) throws SchedulerException {
 
         // 任务开始时间推迟 3 s,结束时间推迟 10 s
